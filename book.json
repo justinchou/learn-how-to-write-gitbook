@@ -1,0 +1,31 @@
+{
+  "title": "WeFarm Document",
+  "author": "corn.mars",
+  "links": {
+    "sidebar": {
+      "Wefarm English": "/en/"
+    }
+  },
+  "plugins": [
+    "advanced-emoji",
+    "emphasize",
+    "katex",
+    "mermaid-compat",
+    "chart",
+    "search-pro",
+    "expandable-chapters",
+    "chapter-fold"
+  ],
+  "pluginsConfig": {
+    "sharing": {
+      "weibo": true,
+      "facebook": true,
+      "twitter": true
+    },
+    "search-pro": {
+      "cutWordLib": "nodejieba"
+    },
+    "expandable-chapters": {},
+    "chapter-fold": {}
+  }
+}
